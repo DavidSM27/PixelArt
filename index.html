@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixel Art</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1 class="app-title">Pixel Art Creator</h1>
+      <p class="app-subtitle">
+        Draw each cell directly on the DOM
+      </p>
+    </header>
+
+    <div class="app-body">
+      <aside class="controls">
+        <div class="control-block">
+          <label class="control-label" for="gridSize">Grid size</label>
+          <div class="size-row">
+            <input type="number" id="gridSize" min="2" max="64" value="16"/>
+            <button id="generateBtn" class="btn btn-accent" type="button">Generate</button>
+          </div>
+        </div>
+
+        <div class="control-block">
+          <label class="control-label" for="colorPicker">Color</label>
+          <input type="color" id="colorPicker" value="#ff004d" />
+        </div>
+
+        <div class="control-block button-stack">
+          <button id="eraserToggle" class="btn" type="button">Eraser</button>
+          <button id="clearBtn" class="btn" type="button">Clear all</button>
+          <button id="downloadBtn" class="btn" type="button">Download PNG</button>
+        </div>
+      </aside>
+
+      <main class="canvas-wrapper">
+        <div id="grid" class="grid" role="img"></div>
+      </main>
+    </div>
+
+    <footer class="app-footer">
+      <p>Click and drag to paint multiple cells in sequence. With the eraser active, click on a painted cell to clear it.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

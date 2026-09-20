@@ -12,6 +12,7 @@
   --text: #1b1f3b;
   --accent: #ff4d6d;
   --border: #1b1f3b;
+  --line: #b9bfd6;
 }
 
 /* Modo oscuro: se activa pulsando la tecla "N" (ver script.js) */
@@ -21,6 +22,7 @@ body.dark-mode {
   --text: #f0f2f8;
   --accent: #ff8fa3;
   --border: #f0f2f8;
+  --line: #4a5578;
 }
 
 body {
@@ -172,7 +174,7 @@ body {
 }
 
 .cell {
-  border: 1px solid var(--bg);
+  border: 1px solid var(--line);
 }
 
 .app-footer {

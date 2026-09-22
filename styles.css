@@ -15,7 +15,7 @@
   --line: #b9bfd6;
 }
 
-/* Modo oscuro: se activa pulsando la tecla "N" (ver script.js) */
+/* Modo oscuro */
 body.dark-mode {
   --bg: #1b1f3b;
   --panel: #262b52;
@@ -164,7 +164,7 @@ body {
 }
 
 .grid {
-  width: min(500px, 90vw);
+  width: 500px;
   aspect-ratio: 1 / 1;
   display: grid;
   grid-template-columns: repeat(var(--grid-size), 1fr);
@@ -183,16 +183,4 @@ body {
   font-size: 0.85rem;
   color: #ffffff;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
-}
-
-@media (max-width: 600px) {
-  .app-body {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .controls {
-    width: 100%;
-    max-width: 320px;
-  }
 }

@@ -77,9 +77,9 @@ grid.addEventListener('dragstart', (event) => event.preventDefault());
 colorPicker.addEventListener('input', (event) => {
   currentColor = event.target.value;
   isErasing = false;
-  eraserToggle.setAttribute('aria-pressed', 'false');
+  eraserToggle.setAttribute('false');
 });
-
+ 
 // Activamos / desactivamos el modo borrador
 eraserToggle.addEventListener('click', () => {
   isErasing = !isErasing;
@@ -121,7 +121,7 @@ downloadBtn.addEventListener('click', () => {
   });
 
   const link = document.createElement('a');
-  link.download = 'pixel-art.png';
+  link.download = `pixel-art-${currentGridSize}x${currentGridSize}-${Date.now()}.png`;
   link.href = canvas.toDataURL('image/png');
   link.click();
 });

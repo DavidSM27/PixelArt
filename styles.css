@@ -1,6 +1,4 @@
-/* ============================================
-   Pixel Art Creator - estilos
-   ============================================ */
+/* Pixel Art Creator - Estilos CSS - David San Martin Mateos - M.1 */
 
 * {
   box-sizing: border-box;
@@ -147,17 +145,6 @@ body {
   border-color: var(--accent);
 }
 
-.btn {
-  background-color: var(--accent);
-  color: #ffffff;
-  border-color: var(--accent);
-}
-
-.btn:hover{
-    background-color: var(--panel);
-    color: var(--text);
-    border-color: var(--border);
-}
 .canvas-wrapper {
   display: flex;
   justify-content: center;

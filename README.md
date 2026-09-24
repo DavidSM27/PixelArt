@@ -1,4 +1,4 @@
-#Pixel Art Creator
+# Pixel Art Creator
 Se trata de una aplicacion web para crear pixel art(pintar pixel a pixel) directamente en el navegador.
 Genera una cuadricula del tam pedido por el usuario, que permite dibujar cada pixel con el color elegido por el usuario y el resultado se puede exportar como imagen PNG.
 

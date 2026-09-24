@@ -23,7 +23,7 @@ Estructura del proyecto:
   -media/ -- > Gemini_Generated_Image.jpeg ( imagen creada por nano banana pro para el diseno del fondo de la web app)
 
 
-Uso de IA:
+## Uso de IA
  -El fondo de la web lo genere con gemini, mas especificamente con nano banana pro para que el diseno y los colores fueran acordes a el diseno que tenia en mente para la web app.
  -En el html solo se hizo uso de la ia para la integracion de las apis de google para los fonts, ya que describi como queria que fuera el texto y me ayudo a encontrar las mejores fuentes que concordasen para el proyecto.
  -En el css hice uso de la IA para realizar algunas mejoras visiuales un poco mas complejas como pooner transparencia al fondo de un div dejando los botones intactos o algunos de los hovers y animaciones que resultaban algo mas complejos.

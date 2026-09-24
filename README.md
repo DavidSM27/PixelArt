@@ -35,6 +35,10 @@ Genera una cuadricula del tam pedido por el usuario, que permite dibujar cada pi
  'Agrega las funcionalidades necesarias faltantes para poder pintar las celdas de la cuadricula de forma que tambien puedan pintarse arrastrando el raton y no solo clik a click'
  'Ayudame con el desarrollo de la funcion generateGrid(gridSize) para que al pasarle un nuevo tam de cuadricula, la app ajuste el tam al requerido por el usuario'
 
+ -Antes de finalizar el proyecto lo subi a la arena algunas veces y fui mejorando algunas de las funcionalidades y eliminando algunos elementos redundantes o duplicados que habia incluido al hacer las primeras pruebas del proyecto. 
+ En este caso la IA me ayudo a identificar algunas de esas secciones que debia de modificar o eliminar para que mi codigo quedara lo mas limpio posible, siempre revisando y modificando solo lo que yo queria para que fuera un diseno
+ tal y como habia planeado en un principio.
+
  -Para realizar las debidas comprobaciones del proyecto fui probando cada uno de los botones y las distintas funcionalidades que iba integrando en el mismo cada vez que implementaba algo nuevo para asegurarme de que todo iba correctamente
  y asi no tener que depurar todo el codigo una vez ya finalizado ya que suele ser mas complejo de encontrar distintos errores. Aparte fui revisando linea por linea para asegurarme de que toda la sintaxis y los textos del html que 
  iba a ver el usuario estaban correctos. Opte por realizar toda la parte visual en ingles para obtener una adaptacion a la mayoria de los usuarios y la parte de codigo la he realizado en espanol para la mejor compresion de todos en la

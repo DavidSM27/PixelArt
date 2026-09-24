@@ -1,8 +1,8 @@
-Pixel Art Creator
+# Pixel Art Creator
 Se trata de una aplicacion web para crear pixel art(pintar pixel a pixel) directamente en el navegador.
 Genera una cuadricula del tam pedido por el usuario, que permite dibujar cada pixel con el color elegido por el usuario y el resultado se puede exportar como imagen PNG.
 
-Funcionalidades:
+## Funcionalidades:
   -Generación de una cuadricula configurable de entre 2×2 y 64×64 celdas.
   -Un selector de color para pintar.
   -Se puede pintar click por click o se puede pintar arrastrando el raton.
@@ -11,19 +11,19 @@ Funcionalidades:
   -Descarga del dibujo como imagen PNG.  
   -Modo oscuro, activable con la tecla N.
 
-Tecnologias usadas en el proyecto:
+## Tecnologias usadas en el proyecto:
   -HTML5
   -CSS3
   -JavaScript
 
-Estructura del proyecto:
+## Estructura del proyecto:
   -index.html
   -styles.css
   -script.js
   -media/ -- > Gemini_Generated_Image.jpeg ( imagen creada por nano banana pro para el diseno del fondo de la web app)
 
 
-Uso de IA:
+## Uso de IA
  -El fondo de la web lo genere con gemini, mas especificamente con nano banana pro para que el diseno y los colores fueran acordes a el diseno que tenia en mente para la web app.
  -En el html solo se hizo uso de la ia para la integracion de las apis de google para los fonts, ya que describi como queria que fuera el texto y me ayudo a encontrar las mejores fuentes que concordasen para el proyecto.
  -En el css hice uso de la IA para realizar algunas mejoras visiuales un poco mas complejas como pooner transparencia al fondo de un div dejando los botones intactos o algunos de los hovers y animaciones que resultaban algo mas complejos.
@@ -40,7 +40,7 @@ Uso de IA:
  iba a ver el usuario estaban correctos. Opte por realizar toda la parte visual en ingles para obtener una adaptacion a la mayoria de los usuarios y la parte de codigo la he realizado en espanol para la mejor compresion de todos en la
  defensa del proyecto.
 
-Autopsia:
+## Autopsia:
   -Una de las desiones que mas me plantee fue la de la descarga de la imagen, ya que no sabia si exportarla como jpg o si directamente descargar la cuadricula entera y termine decidiendo que se veria mejor y tendria mas usos el poder
   descargarla sin fondo como jpg.
   -Otra de las decisiones mas complicadas fue decidir la funcionalidad de cada boton, me habria gustado incluir algun tipo de herramienta extra aparte de solo el pintado y el borrado de las celdas, pero opte por dejar un proyecto mas

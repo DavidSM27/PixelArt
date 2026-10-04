@@ -4,24 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pixel Art</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /> <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> <!-- Fuentes -->
   <link
     href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap"
     rel="stylesheet"
-  />
-  <link rel="stylesheet" href="styles.css" />
+  /> <!-- Fuentes -->
+  <link rel="stylesheet" href="styles.css" /> <!-- Hoja de estilos css -->
 </head>
 <body>
   <div class="app">
-    <header class="app-header">
-      <h1 class="app-title">Pixel Art Creator</h1>
-      <p class="app-subtitle">
+    <header class="app-header"> <!-- Cabecera de la web -->
+      <h1 class="app-title">Pixel Art Creator</h1> <!-- Título principal -->
+      <p class="app-subtitle"> <!-- Subtitulo -->
         Draw each cell directly on the DOM
       </p>
     </header>
 
     <div class="app-body">
+      <!-- Formulario de controles -->
       <aside class="controls">
         <div class="control-block">
           <label class="control-label" for="gridSize">Grid size</label>
@@ -43,16 +44,18 @@
         </div>
       </aside>
 
+      <!-- Lienzo de dibujo estilo matriz de celdas -->
       <main class="canvas-wrapper">
         <div id="grid" class="grid" role="img"></div>
       </main>
     </div>
 
+    <!-- Footer de la web con las instrucciones para un correcto uso del lienzo -->
     <footer class="app-footer">
       <p>Click and drag to paint multiple cells in sequence. With the eraser active, click on a painted cell to clear it.</p>
     </footer>
   </div>
 
-  <script src="script.js"></script>
+  <script src="script.js"></script> <!-- Script principal -->
 </body>
 </html>

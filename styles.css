@@ -1,9 +1,11 @@
 /* Pixel Art Creator - Estilos CSS - David San Martin Mateos - M.1 */
 
+/* Reset para que el padding y el borde cuenten dentro del ancho de cada elemento */
 * {
   box-sizing: border-box;
 }
 
+/* Variables de color, así no repetimos los mismos valores por todo el css */
 :root {
   --bg: #f0f2f8;
   --panel: #ffffff;
@@ -13,7 +15,7 @@
   --line: #b9bfd6;
 }
 
-/* Modo oscuro */
+/* Modo oscuro: al ponerle la clase dark-mode al body cambiamos las variables */
 body.dark-mode {
   --bg: #1b1f3b;
   --panel: #262b52;
@@ -23,6 +25,7 @@ body.dark-mode {
   --line: #4a5578;
 }
 
+/* Estilos generales de la página y la imagen de fondo */
 body {
   margin: 0;
   padding: 30px 20px;
@@ -36,25 +39,24 @@ body {
   background-attachment: fixed;
 }
 
+/* Contenedor principal, centrado y con un ancho máximo */
 .app {
   max-width: 900px;
   margin: 0 auto;
 }
 
+/* Cabecera con el título y el subtítulo */
 .app-header {
   text-align: center;
   margin-bottom: 30px;
 }
 
+/* Texto blanco con sombra para que se lea bien encima de la imagen */
 .app-title {
   font-size: 2rem;
   margin: 0 0 10px;
   color: #ffffff;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
-}
-
-.cursor {
-  color: var(--accent);
 }
 
 .app-subtitle {
@@ -63,6 +65,7 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* Controles a un lado y lienzo al otro, si no caben se colocan uno debajo del otro */
 .app-body {
   display: flex;
   flex-wrap: wrap;
@@ -70,6 +73,7 @@ body {
   justify-content: center;
 }
 
+/* Panel de controles con el fondo transparente, los botones mantienen el suyo */
 .controls {
   background-color: transparent;
   border: none;
@@ -82,6 +86,7 @@ body {
   gap: 18px;
 }
 
+/* Cada control lleva su etiqueta encima */
 .control-block {
   display: flex;
   flex-direction: column;
@@ -94,12 +99,14 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* El input del tamaño y el botón Generate van en la misma fila */
 .size-row {
   display: flex;
   gap: 8px;
   min-width: 0;
 }
 
+/* Con min-width a 0 el input se puede encoger y cabe al lado del botón */
 #gridSize {
   width: 100%;
   min-width: 0;
@@ -110,6 +117,7 @@ body {
   color: var(--text);
 }
 
+/* Selector de color a todo el ancho del panel */
 #colorPicker {
   width: 100%;
   height: 38px;
@@ -118,10 +126,12 @@ body {
   cursor: pointer;
 }
 
+/* Separación entre los tres botones de abajo */
 .button-stack {
   gap: 10px;
 }
 
+/* Estilo base de todos los botones */
 .btn {
   padding: 10px;
   background-color: var(--panel);
@@ -133,23 +143,27 @@ body {
   white-space: nowrap;
 }
 
+/* Al pasar el ratón el botón cambia al color de acento */
 .btn:hover {
   background-color: var(--accent);
   color: #ffffff;
   border-color: var(--accent);
 }
 
+/* El botón Generate siempre va con el color de acento para destacarlo */
 .btn-accent {
   background-color: var(--accent);
   color: #ffffff;
   border-color: var(--accent);
 }
 
+/* Centramos el lienzo */
 .canvas-wrapper {
   display: flex;
   justify-content: center;
 }
 
+/* Lienzo cuadrado, el número de filas y columnas sale de --grid-size, que lo pone el JS */
 .grid {
   width: 500px;
   aspect-ratio: 1 / 1;
@@ -160,10 +174,12 @@ body {
   background-color: var(--panel);
 }
 
+/* Borde fino en cada celda para que se vea la cuadrícula */
 .cell {
   border: 1px solid var(--line);
 }
 
+/* Texto de ayuda de la parte de abajo */
 .app-footer {
   margin-top: 25px;
   text-align: center;

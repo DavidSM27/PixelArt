@@ -45,7 +45,7 @@ Genera una cuadricula del tam pedido por el usuario, que permite dibujar cada pi
  defensa del proyecto.
 
 ## Autopsia:
-  -Una de las desiones que mas me plantee fue la de la descarga de la imagen, ya que no sabia si exportarla como jpg o si directamente descargar la cuadricula entera y termine decidiendo que se veria mejor y tendria mas usos el poder
-  descargarla sin fondo como jpg.
+  -Una de las desiones que mas me plantee fue la de la descarga de la imagen, ya que no sabia si exportarla como png o si directamente descargar la cuadricula entera y termine decidiendo que se veria mejor y tendria mas usos el poder
+  descargarla sin fondo como png.
   -Otra de las decisiones mas complicadas fue decidir la funcionalidad de cada boton, me habria gustado incluir algun tipo de herramienta extra aparte de solo el pintado y el borrado de las celdas, pero opte por dejar un proyecto mas
   limpio y sin tantas funcionalidades pero que fuera productivo y que se pudiera usar sin encontrar fallos.
